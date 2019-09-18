@@ -159,6 +159,8 @@ def user_stats(df):
     print('-'*40)
 
 def see_raw_data(df):
+    """Prompts user if he wants to see the raw data"""
+    
     i=0
     while True:
         if i==0:
